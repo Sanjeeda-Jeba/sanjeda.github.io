@@ -1,6 +1,6 @@
-# sanjeda.github.io
+# Portfolio Website
 
-A React-based futuristic kawaii academic portfolio for **Sanjeda Akter** with a clean editorial layout (inspired by modern personal portfolio patterns) and an easy update workflow.
+A React-based academic portfolio with a clean editorial layout and an easy update workflow.
 
 ## What makes it dynamic
 - Animated neural-network background canvas
