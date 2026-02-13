@@ -1,60 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanjeda Akter | AI Research Lab</title>
+  <meta name="description" content="Sanjeda Akter's futuristic kawaii academic website built with React, featuring publications, research tracks, animations, and interactive components." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <canvas id="bg-network" aria-hidden="true"></canvas>
+  <div id="cursor-glow" aria-hidden="true"></div>
+  <div id="root"></div>
 
-    <div class="main-wrapper">
-        <header class="glass-panel">
-            <p class="intro-text">Welcome.</p>
-            <h1>I am <span class="highlight">Your Name</span>.</h1>
-            <p class="subtitle">Digital Craftsman & UI Designer.</p>
-            
-            <div class="nav-links">
-                <a href="#work">Work</a>
-                <a href="#about">About</a>
-                <a href="mailto:email@example.com">Contact</a>
-            </div>
-        </header>
-
-        <section id="work" class="content-section">
-            <h2 class="section-title">Selected Works</h2>
-            <div class="grid">
-                <div class="project-card">
-                    <div class="card-content">
-                        <h3>Finance Tracker</h3>
-                        <p>A minimalist dashboard for personal finance.</p>
-                        <a href="#" class="link-arrow">View Project &rarr;</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="card-content">
-                        <h3>Bloom UI</h3>
-                        <p>An e-commerce kit for florists.</p>
-                        <a href="#" class="link-arrow">View Project &rarr;</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="card-content">
-                        <h3>Task Flow</h3>
-                        <p>Productivity application with React.</p>
-                        <a href="#" class="link-arrow">View Project &rarr;</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer>
-            <p>&copy; 2024. Designed with care.</p>
-        </footer>
-    </div>
-
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="content.js"></script>
+  <script type="text/babel" src="app.jsx"></script>
 </body>
 </html>
