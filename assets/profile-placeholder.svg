@@ -1,0 +1,12 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='720' height='720' viewBox='0 0 720 720'>
+  <defs>
+    <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#ff9fd0'/>
+      <stop offset='100%' stop-color='#8f92ff'/>
+    </linearGradient>
+  </defs>
+  <rect width='720' height='720' rx='90' fill='url(#g)'/>
+  <circle cx='360' cy='290' r='130' fill='#fff' fill-opacity='0.9'/>
+  <rect x='180' y='430' width='360' height='180' rx='90' fill='#fff' fill-opacity='0.9'/>
+  <text x='360' y='685' text-anchor='middle' font-size='42' font-family='Nunito, Arial, sans-serif' fill='#ffffff'>Replace with your photo</text>
+</svg>
